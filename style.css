@@ -814,7 +814,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
@@ -822,12 +822,12 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    /* modification de l'image bmp en jpg */
-    background-image: url("img/image-de-presentation.jpg");
+    /* modification de l'image bmp en webp */
+    background-image: url("img/image-de-presentation.webp");
 }
 
 /* Augmentation de la taille de police et couleur passée en noir */
