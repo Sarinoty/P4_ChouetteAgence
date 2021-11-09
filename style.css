@@ -362,7 +362,6 @@ a:hover {
     z-index: 2;
 }
 
-
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -678,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -691,13 +690,12 @@ p {
     font-family: "Open Sans";
 }
 
-/* Passage du texte en noir et légère augmentation de la taille de la police */
 .cta-hero {
     margin-top: 22px;
-    color: black!important;
+    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -776,15 +774,13 @@ h4 {
     background-color: #F3976C;
 }
 
-/* Modification de la couleur en blanc */
 .tc-white {
-    color: white!important;
+    color: white !important;
 }
 
-/* Modification de la couleur en noir */
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: black !important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -826,19 +822,42 @@ h4 {
 }
 
 .bg-presentation {
-    /* modification de l'image bmp en webp */
     background-image: url("img/image-de-presentation.webp");
 }
 
-/* Augmentation de la taille de police et couleur passée en noir */
-#chouette {
-    font-size: 14px !important;
+#part {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#footul {
+    list-style-type: none;
+}
+
+.bandeau {
     color: black !important;
 }
 
-#soustitre {
-    font-size: 14px !important;
-    color: #333333 !important;
+.butt {
+    color: black !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ceh2 {
+    background-color: black;
+    color: white !important;
+    font-weight: bold;
+    width: 500px;
+    padding: 25px 0;
+}
+
+.meco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media (max-width: 1024px) {
